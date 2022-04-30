@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+  "name": "Estojo infantil",
+  "price": 14.99
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/34ffadf1-fa31-4e76-984f-9717d8615917
+
+###
+
+PUT http://localhost:4002/products/1cd550f4-d09f-4bc5-b67e-29f47348625f
+Content-Type: application/json
+
+{
+  "name": "Caneta preta V2",
+  "price": 16
+}
+
+###
+
+DELETE http://localhost:4002/products/f8a32dc1-e2f4-4c94-a091-9aaf5d0d91f6
